@@ -1,3 +1,60 @@
-body { 
-    background-color: red;
+* { 
+    margin: 0px;
+    padding: 0xp; 
+    box-sizing: border-box;
+}
+@mixin Main_section_size_scss { 
+    border: 1px solid white;
+    margin: 50px 300px;
+
+}
+nav { 
+    padding:0px !important;
+    border: 1px solid white;
+}
+.Main_section_size { 
+    @include Main_section_size_scss; 
+}
+$icons-p: 5px; 
+.fas { 
+    margin-left: $icons-p;
+    margin-right: $icons-p;
+} 
+.fab { 
+    margin-left: $icons-p;
+    margin-right: $icons-p;
+} 
+.whtc { 
+    color: white;
+}
+
+.whtca { 
+    border-right: 0.2px solid white;
+
+}
+.navbar { 
+    background-color: #0E99D9;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid { 
+    background-color: #0E99D9;
+}
+
+.nav_banner { 
+    background-color: #0E99D9;
+    width: 100px;
+    height: 120px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.nav_banner_text { 
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+}
+.drpdwnm { 
+    display: flex;
 }

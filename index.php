@@ -2,16 +2,18 @@
     <title>Litsey   </title>
 </head>
 <body>
-    <!-- header section -->
-    <?php include('layouts/Navbar.php'); ?>
+    <section class="Main_section_size">
+            <!-- header section -->
+            <?php include('layouts/Navbar.php'); ?>
 
-    <!-- Main section  -->
-
-    
-
+            <!-- Main section  -->
 
 
-    <div class="footer"></div>
+
+
+
+            <div class="footer"></div>
+    </section>
     <script src=""></script>
 </body>
 </html>
